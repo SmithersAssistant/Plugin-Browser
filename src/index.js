@@ -1,9 +1,9 @@
-import React from 'react'
 import {shell} from 'electron'
 
 const BROWSER_COMPONENT = 'com.robinmalfait.browser';
 
 export default robot => {
+    const {React} = robot.dependencies;
     const {Full} = robot.cards
     const {Webview, StyleSheet, css} = robot.UI
 
