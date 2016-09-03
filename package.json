@@ -1,8 +1,13 @@
 {
   "name": "smithers-browser",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A browser plugin for the Smithers Assistant",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SmithersAssistant/Plugin-Browser.git"
+  },
+  "homepage": "https://github.com/SmithersAssistant/Plugin-Browser",
   "keywords": [
     "smithers",
     "assistant",
