@@ -47,8 +47,6 @@ exports.default = function (robot) {
       _extends({}, other, {
         title: renderTitle(styles, url),
         actions: [{
-          type: 'divider'
-        }, {
           label: 'Open in browser',
           onClick: function onClick() {
             return _electron.shell.openExternal(url);

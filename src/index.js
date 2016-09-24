@@ -21,8 +21,6 @@ export default robot => {
       {...other}
       title={renderTitle(styles, url)}
       actions={[{
-          type: 'divider'
-      }, {
           label: 'Open in browser',
           onClick: () => shell.openExternal(url)
       }]}
